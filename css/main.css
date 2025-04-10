@@ -4,6 +4,11 @@ body {
     font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
+    background-image: url(../Img/bodybg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 a {
