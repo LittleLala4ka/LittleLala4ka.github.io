@@ -355,7 +355,7 @@ header {
   
 
 #tours {
-    background-image: url(../Img/toursbg.png);
+    /* background-image: url(../Img/toursbg.png); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -697,7 +697,7 @@ header {
 #reviews {
     padding-top: 85px;
     padding-bottom: 125px;
-    background-image: url(../Img/reviewsbg.png);
+    /* background-image: url(../Img/reviewsbg.png); */
     background-position: center;
     background-size: cover;
 }
@@ -949,7 +949,7 @@ header {
 #blog {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(../Img/blogbg.png);
+    /* background-image: url(../Img/blogbg.png); */
     background-position: center;
     background-size: cover;
 }
@@ -1295,7 +1295,7 @@ header {
 
 .footer-blog {
     height: 625px;
-    background-image: url(../Img/footerbg1.png);
+    /* background-image: url(../Img/footerbg1.png); */
     background-position: center;
     background-size: cover;
     /* padding-top: 90px;
@@ -1811,7 +1811,7 @@ footer .nav-phone {
     top: 0;
     z-index: 7;
     background-color: #fff;
-    background-image: url(../Img/menu-bg.png);
+    /* background-image: url(../Img/menu-bg.png); */
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -1958,7 +1958,7 @@ nav.menuopen .nav-burger-close {
 }
 
 #prices {
-    background-image: url(../Img/pricesbg.png);
+    /* background-image: url(../Img/pricesbg.png); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2382,7 +2382,7 @@ header.faq-header {
 
 #about-chooseus {
     background-color: #000000;
-    background-image: url(../Img/about-chooseus-bg.png);
+    /* background-image: url(../Img/about-chooseus-bg.png); */
     background-position: center;
     background-size: cover;
     padding-top: 75px;
@@ -4076,7 +4076,7 @@ header.faq-header {
 #aboutchernobyl-videos {
     padding: 120px 0;
     background-color: #000;
-    background-image: url(../Img/aboutchernobyl-bg.png);
+    /* background-image: url(../Img/aboutchernobyl-bg.png); */
     background-size: cover;
     background-position: center;
 }
@@ -4688,7 +4688,7 @@ header.faq-header {
 
 #virtualtour {
     padding: 120px 0;
-    background-image: url(../Img/virtualtour-bg.png);
+    /* background-image: url(../Img/virtualtour-bg.png); */
     background-position: center;
     background-size: cover;
 }
