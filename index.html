@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font/font.css">
-    <link rel="stylesheet" href="css/фыв.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
     <script src="js/main.js"></script>
-    <title>Home</title>
+    <title>ArtMentorship</title>
 </head>
 <body>
     
     <nav class="container-fluid">
-        <img src="img/navbg.png" alt="" class="nav-bg">
         <div class="container nav-flex">
-            <div class="nav_home">
+            <div class="nav_home" id="nav_home">
                 <div class="nav-logo">
                     <img src="./Img/navlogo.png" alt="">
                 </div>
@@ -31,21 +29,20 @@
                 </div>
             </div>
             <div class="nav-socials">
-                <div class="nav-title">
+                <div class="nav-socials-title">
                     Соціальні мережі
                 </div>
                 <div class="nav-socials-links">
-                    <a href="#" class="nav-socials-inst"><img src="./Img/navicon1.png" alt=""></a>
-                    <a href="#" class="nav-socials-telegram"><img src="./Img/navicon2.png" alt=""></a>
-                    <a href="#" class="nav-socials-viber"><img src="./Img/navicon3.png" alt=""></a>
-                    <a href="#" class="nav-socials-whatsapp"><img src="./Img/navicon4.png" alt=""></a>
+                    <a href="https://t.me/techchchchch" target="_blank" class="nav-socials-telegram"><img src="./Img/navicon1.png" alt=""></a>
+                    <a href="https://www.instagram.com/antonrabarskyi/" target="_blank" class="nav-socials-inst"><img src="./Img/navicon2.png" alt=""></a>
+                    <a href="https://discord.gg/VBKYd2Nc" target="_blank" class="nav-socials-disc"><img src="./Img/navicon3.png" alt=""></a>
+                    <a href="https://www.artstation.com" target="_blank" class="nav-socials-artst"><img src="./Img/navicon4.png" alt=""></a>
                 </div>
             </div>
         </div>
     </nav>
 
     <header class="container-fluid">
-        <!-- <img src="img/headerbg.png" alt="" class="header-bg"> -->
         <div class="container header-flex">
             <div class="header_txt">
                 <div class="header-title">
@@ -56,10 +53,10 @@
                 </div>
             </div>
             <div class="header-btns">
-                <div class="header-btn filled">
+                <div class="header-btn" id="header_btn_scroll">
                     Роботи студентів 
                 </div>
-                <a href="#" class="header-btn">
+                <a href="https://t.me/techchchchch" target="_blank" class="header-btn" id="header_btn_write">
                     Написати
                 </a>
             </div>
@@ -146,207 +143,82 @@
         </div>
     </section>
 
-    <section class="container-fluid" id="exclusivetours">
-        <div class="container tab-relative">
-            <div class="exclusivetours-title">
+    <section class="container-fluid" id="studentsworks">
+        <div class="container">
+            <div class="studentsworks-title">
                 Роботи студентів
             </div>
-            <div class="exclusivetours-tabcontent exclusivetours-slider-outer active">
-                <div class="exclusivetours-slider-arrow left unic" >
+            <div class="studentsworks-content studentsworks-slider-outer">
+                <div class="studentsworks-slider-arrow left unic" >
                     <img src="./Img/sliderleftarrow.png" alt="">
                 </div>
-                <div class="exclusivetours-slider-arrow right unic">
+                <div class="studentsworks-slider-arrow right unic">
                     <img src="./Img/sliderrightarrow.png" alt="">
                 </div>
-                <div class="exclusivetours-slider">
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
+                <div class="studentsworks-slider">
+                    <div class="studentsworks-slider-item">
+                        <div class="studentsworks-card">
+                            <div class="studentsworks-card-photo">
                                 <img src="./Img/tourscardimg1.png" alt="">
                             </div>
-                            <div class="exclusivetours-card-title">
+                            <div class="studentsworks-card-title">
                                 Антон Девлікамов
                             </div>
-                            <div class="exclusivetours-card-btn">
+                            <a href="https://www.artstation.com" target="_blank"  class="studentsworks-card-btn">
                                 дивитись роботу
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
+                    <div class="studentsworks-slider-item">
+                        <div class="studentsworks-card">
+                            <div class="studentsworks-card-photo">
                                 <img src="./Img/tourscardimg1.png" alt="">
                             </div>
-                            <div class="exclusivetours-card-title">
+                            <div class="studentsworks-card-title">
                                 Антон Девлікамов
                             </div>
-                            <div class="exclusivetours-card-btn">
+                            <a href="https://www.artstation.com" target="_blank"  class="studentsworks-card-btn">
                                 дивитись роботу
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
+                    <div class="studentsworks-slider-item">
+                        <div class="studentsworks-card">
+                            <div class="studentsworks-card-photo">
                                 <img src="./Img/tourscardimg1.png" alt="">
                             </div>
-                            <div class="exclusivetours-card-title">
+                            <div class="studentsworks-card-title">
                                 Антон Девлікамов
                             </div>
-                            <div class="exclusivetours-card-btn">
+                            <a href="https://www.artstation.com" target="_blank"  class="studentsworks-card-btn">
                                 дивитись роботу
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
+                    <div class="studentsworks-slider-item">
+                        <div class="studentsworks-card">
+                            <div class="studentsworks-card-photo">
                                 <img src="./Img/tourscardimg1.png" alt="">
                             </div>
-                            <div class="exclusivetours-card-title">
+                            <div class="studentsworks-card-title">
                                 Антон Девлікамов
                             </div>
-                            <div class="exclusivetours-card-btn">
+                            <a href="https://www.artstation.com" target="_blank"  class="studentsworks-card-btn">
                                 дивитись роботу
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
+                    <div class="studentsworks-slider-item">
+                        <div class="studentsworks-card">
+                            <div class="studentsworks-card-photo">
                                 <img src="./Img/tourscardimg1.png" alt="">
                             </div>
-                            <div class="exclusivetours-card-title">
+                            <div class="studentsworks-card-title">
                                 Антон Девлікамов
                             </div>
-                            <div class="exclusivetours-card-btn">
+                            <a href="https://www.artstation.com" target="_blank"  class="studentsworks-card-btn">
                                 дивитись роботу
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="./Img/tourscardimg1.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                Антон Девлікамов
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                дивитись роботу
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="exclusivetours-tabcontent exclusivetours-slider-outer ">
-                <div class="exclusivetours-slider-arrow left unic">
-                    <img src="img/sliderleftarrow.png" alt="">
-                </div>
-                <div class="exclusivetours-slider-arrow right unic">
-                    <img src="img/sliderrightarrow.png" alt="">
-                </div>
-                <div class="exclusivetours-slider">
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg1.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср2
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg2.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg3.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg1.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg2.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exclusivetours-slider-item">
-                        <div class="exclusivetours-card">
-                            <div class="exclusivetours-card-photo">
-                                <img src="img/tourscardimg3.png" alt="">
-                            </div>
-                            <div class="exclusivetours-card-title">
-                                секретная база пво ссср
-                            </div>
-                            <div class="exclusivetours-card-price">
-                                <img src="img/tourscardicon.png" alt="">
-                                1 399 грн
-                            </div>
-                            <div class="exclusivetours-card-btn">
-                                Подробнее
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -454,7 +326,7 @@
 
     <footer class="container-fluid">
         <div class="container footer_flex">
-            <div class="nav_home">
+            <div class="nav_home" id="nav_home">
                 <div class="nav-logo">
                     <img src="./Img/navlogo.png" alt="">
                 </div>
@@ -469,97 +341,6 @@
             </div>
         </div>
     </footer>
-
-    <div class="modal" id="reserve">
-        <div class="modal-body">
-            <div class="modal-close">
-                <img src="img/modalclose.png" alt="">
-            </div>
-            <div class="modal-title">
-                Забронировать
-            </div>
-            <div class="modal-input">
-                <div class="modal-input-icon">
-                    <img src="img/modalinputicon1.png" alt="">
-                </div>
-                <input type="text" name="" id="" placeholder="Ваше имя">
-            </div>
-            <div class="modal-input">
-                <div class="modal-input-icon">
-                    <img src="img/modalinputicon2.png" alt="">
-                </div>
-                <input type="tel" name="" id="" placeholder="Ваш телефон">
-            </div>
-            <div class="modal-input">
-                <div class="modal-input-icon">
-                    <img src="img/modalinputicon3.png" alt="">
-                </div>
-                <input type="email" name="" id="" placeholder="E-mail">
-            </div>
-            <div class="modal-grid">
-                <div class="modal-countofpeople">
-                    <div class="modal-grid-title">
-                        Сколько людей
-                    </div>
-                    <div class="modal-countofpeople-body">
-                        <div class="modal-countofpeople-arrow left">
-                            <img src="img/modalleftarrow.png" alt="">
-                        </div>
-                        <div class="modal-countofpeople-slider">
-                            <div class="modal-countofpeople-slider-item-outer">
-                                <div class="modal-countofpeople-slider-item">
-                                    1 человек
-                                </div>
-                            </div>
-                            <!-- <div class="modal-countofpeople-slider-item-outer">
-                                <div class="modal-countofpeople-slider-item">
-                                    2 человека
-                                </div>
-                            </div>
-                            <div class="modal-countofpeople-slider-item-outer">
-                                <div class="modal-countofpeople-slider-item">
-                                    5 человек
-                                </div>
-                            </div> -->
-                        </div>
-                        <div class="modal-countofpeople-arrow right">
-                            <img src="img/modalrightarrow.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-date">
-                    <div class="modal-grid-title">
-                        Выберите дату
-                    </div>
-                    <div class="modal-date-input">
-                        <input type="text" placeholder="15 апреля 2020">
-                        <div class="modal-date-input-icon">
-                            <img src="img/modalinputicon4.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-btn send">
-                Отправить
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="subscription-done">
-        <div class="modal-body">
-            <div class="modal-close">
-                <img src="img/modalclose.png" alt="">
-            </div>
-            <div class="modal-title">
-                Подписка оформлена
-            </div>
-            <div class="modal-btn home">
-                Ок
-            </div>
-        </div>
-    </div>
-
-
 
 </body>
 </html>
