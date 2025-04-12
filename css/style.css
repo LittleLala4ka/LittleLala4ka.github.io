@@ -218,6 +218,10 @@ header {
     text-shadow: 0 1px 0.1rem #000, 0 1px 0.1rem #000;
 }
 
+#header_btn_write {
+    font-size: 36px;
+}
+
 .header-btn:hover {
     backdrop-filter: none;
     background-color: #fff;
