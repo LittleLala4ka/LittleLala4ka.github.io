@@ -346,7 +346,7 @@ header {
     border-width: 2px;
     border-color: rgb(225, 225, 225);
     border-style: solid;
-    height: 434px;
+    /* height: 434px; */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -354,15 +354,37 @@ header {
     justify-content: space-between;
     padding-bottom: 25px;
     transition-duration: 0.2s;
+    position: relative;
+}
+
+.studentsworks-card-link {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    font-family: Fort;
+    font-size: 20px;
+    color: #fff;
+    z-index: 2;
 }
 
 .studentsworks-card-photo {
-    height: 250px;
+    /* height: 250px; */
     min-height: 250px;
     width: 100%;
+    overflow: hidden;
+    height: 350px;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    margin-bottom: 25px;
 }
 
 .studentsworks-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.studentsworks-card-photo video {
     width: 100%;
     height: 100%;
     object-position: center;
@@ -377,6 +399,7 @@ header {
     color: #ffffff;
     text-align: center;
     text-shadow: 0 1px 0.1rem #000, 0 1px 0.1rem #000;
+    margin-bottom: 25px;
 }
 
 .studentsworks-card-btn {
